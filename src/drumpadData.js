@@ -9,7 +9,7 @@ const drumpadData = [
         innerText: "W",
         id:"Hi-Hat",
         unicode: 87,
-        audioLink:"https://sampleswap.org/samples-ghost/DRUMS%20(FULL%20KITS)/REAL%20LIVE%20KITS/Pearl%20Real%20Kit/76[kb]pearlkit-hihat.wav.mp3"
+        audioLink:"https://www.fesliyanstudios.com/play-mp3/6699"
     },
     {
         innerText: "E",
