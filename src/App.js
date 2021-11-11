@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import "./index.css";
 import drumpadData from "./drumpadData";
 
 
 
-class App extends React.Component {
+class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -28,7 +28,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div id="container" className="text-center">
+            <div id="container-sm myContainer" className="text-center">
                 <div id="drum-machine">
                     <h1>A Simple Drum Machine</h1>
                     <h2>drod702</h2>
@@ -43,7 +43,7 @@ class App extends React.Component {
     }
 }
 
-class Drumpad extends React.Component {
+class Drumpad extends Component {
     constructor(props) {
         super(props)
         this.handleClick = this.handleClick.bind(this)
@@ -91,7 +91,7 @@ class Drumpad extends React.Component {
     }
 }
 
-class Display extends React.Component {
+class Display extends Component {
     render() {
         return (
             <div id="display" className="well">
